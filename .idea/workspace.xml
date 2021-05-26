@@ -35,14 +35,70 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager">
-    <configuration name="CompetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw1.CompetTest" />
+  <component name="RunManager" selected="Application.HomeWork2">
+    <configuration name="HomeWork2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw2.HomeWork2" />
       <module name="java2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw1.*" />
+          <option name="PATTERN" value="hw2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiCatchExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionLesson.MultiCatchExample" />
+      <module name="java2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptionLesson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackTraceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionLesson.StackTraceExample" />
+      <module name="java2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptionLesson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThrowExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionLesson.ThrowExample" />
+      <module name="java2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptionLesson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThrowsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionLesson.ThrowsExample" />
+      <module name="java2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptionLesson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -52,7 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CompetTest" />
+        <item itemvalue="Application.HomeWork2" />
+        <item itemvalue="Application.ThrowsExample" />
+        <item itemvalue="Application.ThrowExample" />
+        <item itemvalue="Application.MultiCatchExample" />
+        <item itemvalue="Application.StackTraceExample" />
       </list>
     </recent_temporary>
   </component>
@@ -90,5 +150,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="clear project" />
     <option name="LAST_COMMIT_MESSAGE" value="clear project" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hw2/HomeWork2.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
