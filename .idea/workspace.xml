@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="34a348a6-4394-4376-86c0-696364cc80b8" name="Default Changelist" comment="clear project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java2.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,15 +36,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PATH_TO_FX$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.HomeWork2">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java2\src\hw4" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="HomeWork2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hw2.HomeWork2" />
       <module name="java2" />
+      <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="hw2.*" />
@@ -54,12 +62,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiCatchExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptionLesson.MultiCatchExample" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw4.sample.Main" />
       <module name="java2" />
+      <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exceptionLesson.*" />
+          <option name="PATTERN" value="hw4.sample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,8 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackTraceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptionLesson.StackTraceExample" />
+    <configuration name="MultiCatchExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionLesson.MultiCatchExample" />
       <module name="java2" />
       <extension name="coverage">
         <pattern>
@@ -106,13 +115,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.HomeWork2" />
+      <item itemvalue="Application.MultiCatchExample" />
+      <item itemvalue="Application.ThrowExample" />
+      <item itemvalue="Application.ThrowsExample" />
+      <item itemvalue="Application.Main" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.HomeWork2" />
         <item itemvalue="Application.ThrowsExample" />
         <item itemvalue="Application.ThrowExample" />
         <item itemvalue="Application.MultiCatchExample" />
-        <item itemvalue="Application.StackTraceExample" />
       </list>
     </recent_temporary>
   </component>
