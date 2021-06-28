@@ -4,37 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34a348a6-4394-4376-86c0-696364cc80b8" name="Default Changelist" comment="homeWork 6done">
-      <change afterPath="$PROJECT_DIR$/NetworkChatClient/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkChatClient/src/main/java/ru/gb/java2/chat/client/ClientChat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkChatClient/src/main/java/ru/gb/java2/chat/client/controllers/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkChatClient/src/main/java/ru/gb/java2/chat/client/controllers/ChatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkChatClient/src/main/java/ru/gb/java2/chat/client/model/Network.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkChatClient/src/main/resources/ru/gb/java2/chat/client/authDialog.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkChatClient/src/main/resources/ru/gb/java2/chat/client/chat.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkChatClient/target/classes/ru/gb/java2/chat/client/ClientChat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkChatClient/target/classes/ru/gb/java2/chat/client/authDialog.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkChatClient/target/classes/ru/gb/java2/chat/client/chat.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkChatClient/target/classes/ru/gb/java2/chat/client/controllers/AuthController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkChatClient/target/maven-status/maven-compiler-plugin/compile/default-cli/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkChatClient/target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkChatServer/NetworkChatServer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkChatServer/src/ru/gb/java2/chat/server/ServerApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkChatServer/src/ru/gb/java2/chat/server/chat/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkChatServer/src/ru/gb/java2/chat/server/chat/MyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkChatServer/src/ru/gb/java2/chat/server/chat/auth/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkChatServer/src/ru/gb/java2/chat/server/chat/auth/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="34a348a6-4394-4376-86c0-696364cc80b8" name="Default Changelist" comment="homeWork 7 complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java2/exceptionLesson/MainExceptionClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java2/exceptionLesson/MultiCatchExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java2/exceptionLesson/StackTraceExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java2/exceptionLesson/ThrowExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java2/exceptionLesson/ThrowsExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hw4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hw6/HomeWork6.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623930431025</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="homeWork 7 complete">
+      <created>1624827388454</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1624827388454</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -301,7 +279,8 @@
     <MESSAGE value="homeWork 7 not done" />
     <MESSAGE value="homeWork 8 not done" />
     <MESSAGE value="homeWork 6done" />
-    <option name="LAST_COMMIT_MESSAGE" value="homeWork 6done" />
+    <MESSAGE value="homeWork 7 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="homeWork 7 complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
