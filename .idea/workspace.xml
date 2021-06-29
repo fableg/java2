@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="34a348a6-4394-4376-86c0-696364cc80b8" name="Default Changelist" comment="clear project">
+    <list default="true" id="34a348a6-4394-4376-86c0-696364cc80b8" name="Default Changelist" comment="homeWork 7 complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java2.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,17 +15,27 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="homework8" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1st4RCUcuWdh7MPVHkdsiNx6eFJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -36,25 +48,41 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PATH_TO_FX$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="full.screen.before.presentation.mode" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="openjdk-16" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/NetworkChatClient/src/main/java/ru/gb/java2/chat/client" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/NetworkChatClient/src/main/resources/ru/gb/java2/chat/client" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.gb.java2.chat.clientserver" />
+      <recent name="ru.gb.java2.chat.server.chat" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\java2\src\hw4" />
+      <recent name="E:\java2\NetworkChatClient\src\main\resources\ru\gb\java2\chat\client" />
+      <recent name="E:\java2\NetworkChatClient\src\main\java\ru\gb\java2\chat\client\controllers" />
+      <recent name="E:\java2\NetworkChatClient" />
+      <recent name="E:\java2\NetworkChatClientServer" />
+      <recent name="E:\java2\NetworkChatClientServer\src\ru\gb\java2\chat\clientserver" />
+    </key>
+    <key name="IntroduceConstantDialog.RECENTS_KEY">
+      <recent name="ru.gb.java2.chat.client.controllers.AuthController" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.gb.java2.chat.clientserver.commands" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="HomeWork2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw2.HomeWork2" />
-      <module name="java2" />
-      <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules javafx.controls,javafx.fxml" />
+  <component name="RunManager" selected="Application.ServerApp">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.App" />
+      <module name="NetworkChatClient" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw2.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,13 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw4.sample.Main" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw6.Client" />
       <module name="java2" />
-      <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw4.sample.*" />
+          <option name="PATTERN" value="hw6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +103,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiCatchExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptionLesson.MultiCatchExample" />
+    <configuration name="ClientChat" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.ClientChat" />
       <module name="java2" />
+      <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules javafx.controls,javafx.fxml " />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exceptionLesson.*" />
+          <option name="PATTERN" value="lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThrowExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptionLesson.ThrowExample" />
-      <module name="java2" />
+    <configuration name="ClientChat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.java2.chat.client.ClientChat" />
+      <module name="NetworkChatClient" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exceptionLesson.*" />
+          <option name="PATTERN" value="ru.gb.java2.chat.client.Model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,33 +130,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThrowsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptionLesson.ThrowsExample" />
-      <module name="java2" />
+    <configuration name="ServerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.java2.chat.server.ServerApp" />
+      <module name="NetworkChatServer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exceptionLesson.*" />
+          <option name="PATTERN" value="ru.gb.java2.chat.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="NetworkChatClient [javafx:run]" type="MavenRunConfiguration" factoryName="Maven" singleton="false">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="javafx:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/NetworkChatClient" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.HomeWork2" />
-      <item itemvalue="Application.MultiCatchExample" />
-      <item itemvalue="Application.ThrowExample" />
-      <item itemvalue="Application.ThrowsExample" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ClientChat" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.ServerApp" />
+      <item itemvalue="Application.App" />
+      <item itemvalue="Maven.NetworkChatClient [javafx:run]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.HomeWork2" />
-        <item itemvalue="Application.ThrowsExample" />
-        <item itemvalue="Application.ThrowExample" />
-        <item itemvalue="Application.MultiCatchExample" />
+        <item itemvalue="Application.ServerApp" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.ClientChat" />
+        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +200,63 @@
       <option name="project" value="LOCAL" />
       <updated>1621678755370</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="homeWork4">
+      <created>1622661858640</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1622661858640</updated>
+    </task>
+    <task id="LOCAL-00003" summary="homeWork4">
+      <created>1622662053358</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1622662053358</updated>
+    </task>
+    <task id="LOCAL-00004" summary="homeWork5">
+      <created>1623061265219</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1623061265219</updated>
+    </task>
+    <task id="LOCAL-00005" summary="homeWork 6 not done">
+      <created>1623308285532</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1623308285532</updated>
+    </task>
+    <task id="LOCAL-00006" summary="homeWork 7 not done">
+      <created>1623568709084</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1623568709084</updated>
+    </task>
+    <task id="LOCAL-00007" summary="homeWork 8 not done">
+      <created>1623927304570</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1623927304570</updated>
+    </task>
+    <task id="LOCAL-00008" summary="homeWork 6done">
+      <created>1623930431025</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1623930431025</updated>
+    </task>
+    <task id="LOCAL-00009" summary="homeWork 7 complete">
+      <created>1624827388454</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1624827388454</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,7 +273,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="clear project" />
-    <option name="LAST_COMMIT_MESSAGE" value="clear project" />
+    <MESSAGE value="homeWork4" />
+    <MESSAGE value="homeWork5" />
+    <MESSAGE value="homeWork 6 not done" />
+    <MESSAGE value="homeWork 7 not done" />
+    <MESSAGE value="homeWork 8 not done" />
+    <MESSAGE value="homeWork 6done" />
+    <MESSAGE value="homeWork 7 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="homeWork 7 complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
